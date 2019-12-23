@@ -1,4 +1,3 @@
 module "consul" {
-    source = "github.com/hashicorp/consul/terraform/aws"
-    servers = 3
+  source = "hashicorp/consul/aws"
 }
